@@ -7,9 +7,17 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+<<<<<<< HEAD
     "preview": "vite preview"
   },
   "dependencies": {
+=======
+    "preview": "vite preview",
+    "start": "vite" 
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+>>>>>>> 919fbc3 (Initial commit)
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.5"
