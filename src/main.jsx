@@ -5,10 +5,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/portfolio-website">
+    <BrowserRouter basename="portfolio-website">
       <Routes>
         <Route path="/" element={<App />} />
-        {/* Add your other routes here */}
       </Routes>
     </BrowserRouter>
   </StrictMode>
